@@ -9,12 +9,12 @@ int factorial(int n) {
 
 int main(void) {
     int n;
-    printf("please enter positive number : ");
+    printf("please enter number less than 50 to calculate the factorial: ");
     do{
     scanf("%d", &n);
 
     if (n < 0) {
-        printf("factorial is not defined in negative numbers \nplease enter pozitive number.\n");
+        printf("please enter a POSITIVE number less than 50.\n");
 
     }
     }while(n<0);
