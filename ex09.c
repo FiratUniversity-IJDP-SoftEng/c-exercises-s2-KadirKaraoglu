@@ -20,7 +20,7 @@ i++;
 }
  printf( "Numbers : ");
 for (int a=0;a<i;a++){
-printf("%d ,",array[a]);
+printf("%d, ",array[a]);
 }
     printf("\n");
 printf("Average : %.2f\n",average/i);
